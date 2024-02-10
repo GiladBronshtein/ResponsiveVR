@@ -1,0 +1,134 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="JavaScript Prog 3">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Telem">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מכשירי מציאות מדומה (VR)</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary ">
+            <div class="container-fluid ">
+                <div id="avatar">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">מכשירים</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                מנועי פיתוח
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-disabled="true">אפליקציות</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="headLines">
+        <div class="header row ">
+            <h1> VR Technologies </h1>
+        </div>
+
+
+
+
+
+
+
+        <!--Row of links-->
+        <div class="row">
+            <div class="col text-center">
+                <a href="#" class="custom-link">מכשירים</a>
+            </div>
+            <div class="col text-center">
+                <a href="#" class="custom-link">מנועי פיתוח</a>
+
+            </div>
+            <div class="col text-center">
+                <a href="#" class="custom-link">אפליקציות</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center align-items-center">
+                <!--button  lead to opening a new tab with a link predefined-->
+
+
+                <button type="button" class="btn glow-button" onclick="window.open('https://vr-compare.com/vr', '_blank');">טבלת השוואה להורדה</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <main>
+        <div class="container">
+            <div class="search">
+                <div class="row">
+                    <input type="text" class="form-control col-sm-1" id="searchInput" placeholder="חיפוש מכשיר">
+                </div>
+                <div class="row">
+                    <button type="button" class="form-control btn btn-primary col-sm-1" id="searchButton">חיפוש</button>
+                </div>
+            </div>
+            
+            <!--Carousel-->
+            <div class="carouselWrapper">
+                <div id="carouselExample" class="carousel slide row" data-bs-ride="carousel ">
+                    <div class="carousel-inner ">
+                        <!-- Carousel items will be injected here by JavaScript -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Modal  -->
+            <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="infoModalLabel">מידע נוסף</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Additional Information will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
