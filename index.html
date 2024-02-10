@@ -51,25 +51,21 @@
             <h1> VR Technologies </h1>
         </div>
 
-        <!--Row of links-->
-        <div class="row">
-            <div class="col text-center">
-                <a href="#" class="custom-link">מכשירים</a>
-            </div>
-            <div class="col text-center">
-                <a href="#" class="custom-link">מנועי פיתוח</a>
 
-            </div>
-            <div class="col text-center">
-                <a href="#" class="custom-link">אפליקציות</a>
+        
+        
+        <!--Row of links-->
+        <div class="row customlinks shadow ">
+            <div class="btn-group shadow " role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-dark shadow ">מכשירים</button>
+                <button type="button" class="btn btn-dark shadow ">מנועי פיתוח</button>
+                <button type="button" class="btn btn-dark shadow ">אפליקציות</button>
             </div>
         </div>
         <div class="row">
-            <div class="col d-flex justify-content-center align-items-center">
+            <div class="col   d-flex justify-content-center align-items-center">
                 <!--button  lead to opening a new tab with a link predefined-->
-
-
-                <button type="button" class="btn glow-button" onclick="window.open('https://vr-compare.com/vr', '_blank');">השוואת מכשירים</button>
+                <button type="button" class="btn glow-button shadow " onclick="window.open('https://vr-compare.com/vr', '_blank');">השוואת מכשירים</button>
 
             </div>
         </div>
@@ -80,13 +76,16 @@
     <main>
         <div class="container">
             <div class="search">
-                <div class="row">
-                    <input type="text" class="form-control col-sm-1" id="searchInput" placeholder="חיפוש מכשיר">
-                </div>
-                <div class="row">
-                    <button type="button" class="form-control btn btn-primary col-sm-1" id="searchButton">חיפוש</button>
-                </div>
+                <form action="https://www.google.com/search" method="get" target="_blank">
+                    <div class="row">
+                        <input type="text" name="q" class="form-control col-sm-1" id="searchInput" placeholder="חיפוש מכשיר" required>
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="form-control btn btn-primary col-sm-1" id="searchButton">חיפוש</button>
+                    </div>
+                </form>
             </div>
+            
             
             <!--Carousel-->
             <div class="carouselWrapper">
