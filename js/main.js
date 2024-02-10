@@ -1,14 +1,14 @@
 ﻿var jsonData = [
-    { id: 1, image: "/images/VR_Images/dpvre4.png", title: "DPVR", description: "DPVR" },
-    { id: 2, image: "/images/VR_Images/dpvrp2.png", title: "DPVR 2", description: "DPVR" },
-    { id: 3, image: "/images/VR_Images/metaquest3.png", title: "Quest 3", description: "Meta" },
-    { id: 4, image: "/images/VR_Images/playstationvr2.png", title: "Playstation VR 2", description: "Sony" },
-    { id: 5, image: "/images/VR_Images/applevisionpro.png", title: "Apple Vision Pro", description: "Apple" },
-    { id: 6, image: "/images/VR_Images/lenovothinkrealityvrx.png", title: "Thinkreality vrx", description: "Lenovo" },
-    { id: 7, image: "/images/VR_Images/nolosonic2_3.png", title: "Nolo 2", description: "Nolo" },
-    { id: 8, image: "/images/VR_Images/pico4enterprise_2.png", title: "Pico 4 Enterprise", description: "Bestware" },
-    { id: 9, image: "/images/VR_Images/picog3.png", title: "Pico G3", description: "Bestware" },
-    { id: 10, image: "/images/VR_Images/shiftallmeganex.png", title: "Meganex", description: "ShiftAll" }
+    { id: 1, image: "images/VR_Images/dpvre4.png", title: "DPVR", description: "DPVR" },
+    { id: 2, image: "images/VR_Images/dpvrp2.png", title: "DPVR 2", description: "DPVR" },
+    { id: 3, image: "images/VR_Images/metaquest3.png", title: "Quest 3", description: "Meta" },
+    { id: 4, image: "images/VR_Images/playstationvr2.png", title: "Playstation VR 2", description: "Sony" },
+    { id: 5, image: "images/VR_Images/applevisionpro.png", title: "Apple Vision Pro", description: "Apple" },
+    { id: 6, image: "images/VR_Images/lenovothinkrealityvrx.png", title: "Thinkreality vrx", description: "Lenovo" },
+    { id: 7, image: "images/VR_Images/nolosonic2_3.png", title: "Nolo 2", description: "Nolo" },
+    { id: 8, image: "images/VR_Images/pico4enterprise_2.png", title: "Pico 4 Enterprise", description: "Bestware" },
+    { id: 9, image: "images/VR_Images/picog3.png", title: "Pico G3", description: "Bestware" },
+    { id: 10, image: "images/VR_Images/shiftallmeganex.png", title: "Meganex", description: "ShiftAll" }
 ];
 
 async function getUser() {
