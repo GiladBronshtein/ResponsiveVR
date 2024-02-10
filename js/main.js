@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <div class="card-header p-0 d-flex justify-content-center align-items-center" style="height: 50%;">
                         <img src="${item.image}" style="max-height: 100%; max-width: 100%; object-fit: contain;">
                     </div>
-                    <div class="card-body" style="height: 50%;">
+                    <div class="card-body shadow " style="height: 50%;">
                         <h5 class="card-title">${item.title}</h5>
                         <p class="card-text">${item.description}</p>
                         <button class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#infoModal">
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
             gridItem.style.display = 'flex';
             gridItem.style.flexDirection = 'column';
             gridItem.innerHTML = `
-                <div class="card text-center p-0" style="width: 100%; height: 100%; display: flex; flex-direction: column;">
+                <div class="card shadow  text-center p-0" style="width: 100%; height: 100%; display: flex; flex-direction: column;">
                     <div>    
                         <img src="${item.image}" class="card-img-top" alt="${item.title}" style="width: 100%; flex-grow: 1; object-fit: cover;">
                     </div>    
